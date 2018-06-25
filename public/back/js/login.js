@@ -63,7 +63,7 @@ $(function () {
       data: $('#form').serialize(),
       success: function (info) {
 
-        console.log(info);
+        // console.log(info);
 
         if(info.success) {
           //验证通过
