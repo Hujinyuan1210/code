@@ -13,7 +13,7 @@ $(function() {
       type: "get",
       data: "json",
       success: function (info) {
-        console.log(info)
+        // console.log(info)
 
         if (info.error == 400) {
           //未登录
@@ -65,7 +65,7 @@ $(function() {
       type: 'get',
       url: '/employee/employeeLogout',
       success: function (info) {
-        console.log(info);
+        // console.log(info);
         if(info.success) {
           //跳转到登录页面
           location.href="login.html";
