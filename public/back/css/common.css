@@ -139,5 +139,8 @@ table.table.table-bordered th {
 #add {
   margin-bottom: 20px;
 }
+table img {
+  height: 50px;
+}
 
 
