@@ -1,0 +1,39 @@
+
+
+/* 导航区域 */
+.lt_nav ul {
+  padding: 10px;
+}
+.lt_nav li {
+  width: 33.3%;
+  float: left;
+}
+
+/* 商品区域 */
+.lt_product {
+  padding: 10px;
+  text-align: center;
+}
+.lt_product ul li {
+  float: left;
+  width: 48%;
+  border: 1px solid #ccc;
+  border-radius: 4p0x;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.lt_product li:nth-child(odd) {
+  margin-right: 4%;
+}
+.lt_product a {
+  padding: 10px;
+  display: block;
+}
+.lt_product a p span:nth-of-type(1) {
+  color: red;
+  margin-right: 5px;
+}
+.lt_product a p span:nth-of-type(2) {
+  color: #ccc;
+  text-decoration: line-through;
+}
