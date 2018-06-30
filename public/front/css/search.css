@@ -1,0 +1,38 @@
+.lt_search {
+  padding: 10px;
+  position: relative;
+}
+.lt_search .search_input {
+  font-size: 12px;
+  border: 1px solid #007AFF;
+  margin: 0;
+  height: 34px;
+  border-radius: 5px;
+}
+.lt_search .search_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* 历史记录 */
+.lt_history {
+  padding: 10px;
+  font-size: 12px;
+}
+.lt_history ul {
+  border: 1px dashed #ccc;
+}
+.lt_history ul li {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed #ccc;
+}
+.lt_history ul li a {
+  padding-left: 10px;
+  color: #666;
+}
+.lt_history ul li:last-child {
+  border-bottom: none;
+}
