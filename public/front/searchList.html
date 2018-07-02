@@ -53,7 +53,7 @@
 
           <!-- 商品区域 -->
           <div class="lt_product ">
-            <div class="loading"></div>
+            <!-- <div class="loading"></div> -->
 
           </div>
 
@@ -66,7 +66,7 @@
     <!-- 乐淘底部 -->
     <div class="lt_footer">
       <ul class="mui-clearfix">
-        <li class="current">
+        <li>
           <a href="index.html">
             <i class="fa fa-home"></i>
             <p>首页</p>
@@ -99,8 +99,8 @@
     <ul class="mui-clearfix">
       {{ each data v i}}
       <li>
-        <a href="#">
-          <img src="{{ v.pic[0].picAddr }}">
+        <a href="./product.html?productId={{ v.id }}" data-id="{{ v.id }}">
+          <img src="{{ v.pic[0] ? v.pic[0].picAddr : 'images/none.jpg' }}">
           <p class="mui-ellipsis-2">{{ v.proName }}</p>
           <p>
             <span>￥{{ v.oldPrice }}</span>

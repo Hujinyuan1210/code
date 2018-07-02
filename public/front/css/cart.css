@@ -1,0 +1,50 @@
+.lt_main .cart-item {
+  height: 110px;
+}
+.mui-table-cell{
+  display: block;
+}
+ .imgLeft {
+  float: left;
+  width: 60px;
+  height: 90px;
+}
+ .infobox {
+  overflow: hidden;
+  height: 90px;
+  padding-left: 10px;
+}
+
+.infobox p:first-child {
+  color: #333;
+  height: 40px;
+}
+.infobox .price span:first-child {
+  color: red;
+}
+.infobox .price span:nth-child(2) {
+  font-size: 12px;
+}
+.lt_size,
+.lt_num  {
+  margin-bottom: 5px;
+  text-align: left;
+}
+.lt_total {
+    width: 100%;
+    position: absolute;
+    bottom: 55px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #ccc;
+    z-index: 999;
+    background-color: #eee;
+    font-size: 12px;
+    padding-left: 10px;
+    color: red;
+}
+.lt_total a {
+    padding: 0 15px;
+    background-color: red;
+    color: #fff;
+}

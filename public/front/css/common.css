@@ -85,7 +85,10 @@ img {
 .lt_footer li a p {
   color: #fff;
 }
-
+.lt_footer li.current i,
+.lt_footer li.current p {
+  color: orange;
+}
 .lt_main {
   position: relative;
   width: 100%;
@@ -149,4 +152,24 @@ img {
 .lt_product .mui-ellipsis-2 {
   height: 40px;
 }
+.lt_product img {
+  height: 200px;
+}
+/* 公用的尺码样式 */
+.lt_size span {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin: 3px 0;
+}
+.lt_size span.current {
+  background-color: orange;
+  color: #fff;
+}
+
+
 
